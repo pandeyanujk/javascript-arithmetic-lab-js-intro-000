@@ -29,6 +29,6 @@ function dec(n) {
 }
 
 function makeInt(n) {
-  var c = parseFloat('n');
+  var c = parseInt('n', 10);
   return c;
 }
